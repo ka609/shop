@@ -5,6 +5,7 @@ class Article {
   final double price;
   final String imageUrl;
   final String categoryId;
+  final String categoryTitle;
 
   Article({
     required this.id,
@@ -13,5 +14,6 @@ class Article {
     required this.price,
     required this.imageUrl,
     required this.categoryId,
+    required this.categoryTitle,
   });
 }
